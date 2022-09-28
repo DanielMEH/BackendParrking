@@ -3,7 +3,7 @@ import {Router} from 'express';
 import {welcome} from '../controllers/index.controller';
 import { getUser } from '../controllers/user.controller';
 
-const router = Router();
+const router:Router = Router();
 
 router.route('/') 
   .get (welcome);
